@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "stick",
+    "flint_shard"
+  ],
+  "tasks": {
+    "Flint Knife": {
+      "type": "heracles:item",
+      "item": "notreepunching:flint_knife",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -90,
+          42
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "notreepunching:flint_knife",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Kinfie"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

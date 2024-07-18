@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "coppolsotne"
+  ],
+  "tasks": {
+    "furnace": {
+      "type": "heracles:item",
+      "item": "minecraft:furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -97,
+          175
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Furence"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

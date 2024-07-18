@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "fiber"
+  ],
+  "tasks": {
+    "String": {
+      "type": "heracles:item",
+      "item": "notreepunching:plant_string",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -86,
+          94
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "notreepunching:plant_string",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "String"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

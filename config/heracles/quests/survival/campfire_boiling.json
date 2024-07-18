@@ -1,0 +1,49 @@
+{
+  "dependencies": [
+    "campfire"
+  ],
+  "tasks": {
+    "CampFireBoil": {
+      "type": "heracles:item",
+      "item": "dehydration:campfire_cauldron",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Survival": {
+        "position": [
+          -135,
+          -1
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "dehydration:campfire_cauldron",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Campfire Boiling"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

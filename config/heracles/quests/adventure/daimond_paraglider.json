@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "gold_paraglider"
+  ],
+  "tasks": {
+    "diamond": {
+      "type": "heracles:item",
+      "item": "vc_gliders:paraglider_diamond",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Adventure": {
+        "position": [
+          -60,
+          -45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "vc_gliders:paraglider_diamond",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Diamond paraglider"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

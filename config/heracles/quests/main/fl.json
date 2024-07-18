@@ -1,0 +1,48 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Flint": {
+      "type": "heracles:item",
+      "item": "minecraft:flint",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Flint"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -71,
+          -20
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:flint",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Flint"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

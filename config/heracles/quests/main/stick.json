@@ -1,0 +1,73 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Stick": {
+      "type": "heracles:item",
+      "item": "minecraft:stick",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Stick"
+    }
+  },
+  "rewards": {
+    "noend": {
+      "title": "No End",
+      "icon": {
+        "item": {
+          "id": "minecraft:end_stone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "noportals disableEndPortal true",
+      "type": "heracles:command"
+    },
+    "nonether": {
+      "title": "No Nether",
+      "icon": {
+        "item": {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "command": "noportals disableNetherPortal true",
+      "type": "heracles:command"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -97,
+          -22
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:stick",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Stick"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": true,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

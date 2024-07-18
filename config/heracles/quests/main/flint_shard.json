@@ -1,0 +1,51 @@
+{
+  "dependencies": [
+    "fl",
+    "stick"
+  ],
+  "tasks": {
+    "Flint Shard": {
+      "type": "heracles:item",
+      "item": "notreepunching:flint_shard",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Flint Shard"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -70,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "notreepunching:flint_shard",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Flint Shard"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "ice": {
+      "type": "heracles:item",
+      "item": "environmentz:ice_pack",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      ""
+    ],
+    "groups": {
+      "Survival": {
+        "position": [
+          -100,
+          -30
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "environmentz:ice_pack",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Cold"
+    }
+  },
+  "settings": {
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "autoClaimRewards": false,
+    "individual_progress": false,
+    "hidden": "LOCKED",
+    "unlockNotification": false
+  }
+}
