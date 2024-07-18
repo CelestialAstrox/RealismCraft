@@ -1,0 +1,116 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enable entities light source.
+	entities = true
+	# Enable first-person player light source.
+	self = true
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				parrot = true
+				chest_minecart = true
+				chicken = true
+				wolf = true
+				pig = true
+				bat = true
+				glow_squid = true
+				skeleton = true
+				zombie = true
+				creeper = true
+				drowned = true
+				enderman = true
+				spider = true
+				item = true
+				cow = true
+				ocelot = true
+				sheep = true
+				salmon = true
+				witch = true
+				experience_orb = true
+				zombie_villager = true
+				rabbit = true
+				item_frame = true
+				squid = true
+				tropical_fish = true
+				pufferfish = true
+				axolotl = true
+				panda = true
+				slime = true
+				dolphin = true
+				donkey = true
+				fox = true
+				bee = true
+				horse = true
+				cod = true
+				villager = true
+				iron_golem = true
+				cave_spider = true
+				silverfish = true
+				armor_stand = true
+				ravager = true
+				lightning_bolt = true
+				guardian = true
+				turtle = true
+				painting = true
+				trader_llama = true
+				wandering_trader = true
+				pillager = true
+				arrow = true
+				elder_guardian = true
+				mooshroom = true
+				polar_bear = true
+				goat = true
+
+			[light_sources.settings.entities.birdsboids]
+				bird = true
+
+			[light_sources.settings.entities.naturalist]
+				snail = true
+				lizard = true
+				boar = true
+				butterfly = true
+				firefly = true
+				duck = true
+				bass = true
+				snake = true
+				finch = true
+				robin = true
+				deer = true
+				cardinal = true
+				bear = true
+				sparrow = true
+				coral_snake = true
+				bluejay = true
+				canary = true
+
+			[light_sources.settings.entities.fallingtrees]
+				tree = true
+
+			[light_sources.settings.entities.clutter]
+				beaver = true
+				mossbloom = true
+				butterfly = true
+
+			[light_sources.settings.entities.guardvillagers]
+				guard = true
+
+			[light_sources.settings.entities.bodiesbodies]
+				dead_body = true
+
